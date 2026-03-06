@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
-    "module":"CommonJS",
+    "target": "ES5",
+    "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "out/",
+    "rootDir": "./src",
+    "moduleResolution": "node",
     "noImplicitAny": false,
-    "types": ["node"]
-    
-
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "src/**/*"
